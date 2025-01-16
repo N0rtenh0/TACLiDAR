@@ -47,14 +47,6 @@ Os pacotes necessário podem ser instalados usando o pip:
 - O script inclui tratamento de erros para arquivo não encontrado e valores de resolução inválidos.
   
 ## Resultados
-Sky View
-![sky_view_factor](https://github.com/user-attachments/assets/62b27100-5c1e-4ee7-a781-5c8c4fe64c1f)
-
-Slope
-![slope](https://github.com/user-attachments/assets/35c0f3a4-09f9-48fc-89a9-4534afd3d389)
-
-Hillshade
-![hillshade](https://github.com/user-attachments/assets/f811a59c-9651-45e8-9c05-ff5d3f0a1464)
-
+![Figure_1](https://github.com/user-attachments/assets/ad34b773-119a-4524-a0c1-88910dcd387b)
 
 
