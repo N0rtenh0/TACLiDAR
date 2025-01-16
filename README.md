@@ -48,10 +48,13 @@ Os pacotes necessário podem ser instalados usando o pip:
   
 ## Resultados
 Sky View
-![sky_view_factor](https://github.com/user-attachments/assets/37bbdb50-694a-4e28-9bf5-1025f9d44bf0)
+![sky_view_factor](https://github.com/user-attachments/assets/62b27100-5c1e-4ee7-a781-5c8c4fe64c1f)
+
 Slope
-![slope](https://github.com/user-attachments/assets/80e25415-82d4-4d9a-8423-55dc1ff99be8)
+![slope](https://github.com/user-attachments/assets/35c0f3a4-09f9-48fc-89a9-4534afd3d389)
+
 Hillshade
-![hillshade](https://github.com/user-attachments/assets/35e80ba2-597f-4cc5-b384-343d0bf7a7c7)
+![hillshade](https://github.com/user-attachments/assets/f811a59c-9651-45e8-9c05-ff5d3f0a1464)
+
 
 
