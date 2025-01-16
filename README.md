@@ -1,23 +1,27 @@
 # Script de Processamento MDT
 
+## Trabalho feito por
+André Rodrigues a041851
+Marta Teixeira a042166
+
 ## Visão Geral
 Este script processa um Modelo Digital de Elevação (DEM) usando a biblioteca RVT (Raster Visualization Toolkit). Ele calcula a inclinação, a sombra da colina e o fator de visão do céu a partir dos dados LiDAR fornecidos e salva os resultados como arquivos GeoTIFF. O script também inclui funcionalidade para visualizar os resultados.
 
 ## Requisitos
-Para executar este script, você precisa ter os seguintes pacotes Python instalados:
+Para executar este script, é preciso ter os seguintes pacotes Python instalados:
 
 - `rvt`
 - `rasterio`
 - `matplotlib`
 - `numpy`
 
-Você pode instalar os pacotes necessários usando o pip:
+Os pacotes necessário podem ser instalados usando o pip: 
 
 - `pip install rvt rasterio matplotlib numpy`
 - `conda install rvt`
 
 ## Uso
-1. **Prepare Seus Dados**: Certifique-se de ter um arquivo .tif do seu DEM. Atualize a variável `mdt_path` no script para apontar para o seu arquivo .tif.
+1. **Preparar os Dados**: Certifique-se de ter um arquivo .tif do seu DEM. Atualize a variável `mdt_path` no script para apontar para o seu arquivo .tif.
 
 2. **Execute o Script**: Execute o script usando Python:
 
@@ -41,10 +45,13 @@ Você pode instalar os pacotes necessários usando o pip:
 ## Notas
 - Certifique-se de que o DEM de entrada é válido e não está vazio.
 - O script inclui tratamento de erros para arquivo não encontrado e valores de resolução inválidos.
+  
+## Resultados
+Sky View
+![sky_view_factor](https://github.com/user-attachments/assets/37bbdb50-694a-4e28-9bf5-1025f9d44bf0)
+Slope
+![slope](https://github.com/user-attachments/assets/80e25415-82d4-4d9a-8423-55dc1ff99be8)
+Hillshade
+![hillshade](https://github.com/user-attachments/assets/35e80ba2-597f-4cc5-b384-343d0bf7a7c7)
 
-## Agradecimentos
-- Este script utiliza a biblioteca RVT para visualização e processamento de raster.
-- Agradecimentos especiais aos desenvolvedores das bibliotecas usadas neste projeto por suas contribuições à comunidade de código aberto.
 
-## Contato
-Para quaisquer perguntas ou problemas, entre em contato com [Seu Nome] em [Seu Email].
